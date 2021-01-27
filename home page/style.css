@@ -20,8 +20,6 @@ li a {
     padding: 20px 16px;
     text-decoration: none;
     text-transform: uppercase;
-   
-    
 }
 li a:hover {
     background-color: rgb(245, 199, 199);
@@ -33,6 +31,7 @@ li a:hover {
     width: 100%;
     background: rgb(71, 71, 70);
 }
+
 .photo{
     position: relative;
     top:-650px;
@@ -47,7 +46,7 @@ li a:hover {
 .name {
     color: #fff;
     font-size: 30px;
-    margin-right: 10%;
+    margin-right: 20%;
 }
 .text{
     position: relative;
