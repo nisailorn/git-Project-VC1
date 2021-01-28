@@ -22,8 +22,12 @@ li a {
     text-transform: uppercase;
 }
 li a:hover {
-    background-color: rgb(245, 199, 199);
     cursor: pointer;
+}
+.active, .nav:hover{
+    color: rgba(0, 26, 255, 0.945);
+    text-decoration: underline;
+
 }
 .container{
     display: flex;

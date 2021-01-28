@@ -6,6 +6,10 @@ body{
     background-size: cover;
     font-family: sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 ul {
     list-style-type: none;
     
@@ -19,16 +23,20 @@ li a {
     padding: 20px 16px;
     text-decoration: none;
     text-transform: uppercase;
+    font-family:time new romemt;
 }
 li a:hover {
-    background-color: rgb(245, 199, 199);
     cursor: pointer;
+}
+.active, .nav:hover{
+    color: rgba(40, 19, 224, 0.945);
+    text-decoration: underline;
 }
 .container{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background: rgb(3, 51, 141);
+    background:rgb(71, 71, 70);
 }
 .title{
     margin-top: 100px;
@@ -70,5 +78,19 @@ form .submit{
 }
 form .submit:hover{
     background-color:#f44336 ;
+    cursor: pointer;
+}
+.map {
+    width:97%;
+    background-color: rgb(241, 234, 234);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    color:black;
+  }
+  .item{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
     cursor: pointer;
 }
