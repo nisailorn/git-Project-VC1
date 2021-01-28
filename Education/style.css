@@ -117,19 +117,39 @@ h2{
     margin-top: -12%;
     margin-bottom: 1%;
 }
-.footer{
-    width: 97%;
-    padding: 20px;
-    height: 10px;
-    position: relative;
-    top: -120px;
+footer {
+    background: rgb(151, 143, 143);
+    padding: 0px;
     text-align: center;
-    
-  }
-
-.item{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
 }
-
+.fa {
+    padding: 10px;
+}
+.fa-facebook {
+    background: blue;
+    color: #FFF;
+    border-radius: 10px;
+    position: relative;
+    top: -70px;
+}
+.fa-instagram {
+    border-radius: 10px;
+    background: rgb(238, 187, 20);
+    color: white;
+    position: relative;
+    top: -70px;
+}
+.fa-telegram {
+    border-radius: 10px;
+    background: rgb(8, 8, 240);
+    color: white;
+    position: relative;
+    top: -70px;
+}
+.fa-skype{
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    position: relative;
+    top: -70px;
+}

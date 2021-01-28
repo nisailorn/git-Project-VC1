@@ -97,18 +97,33 @@ h3{
 .btn:hover {
     background-color: rgb(109, 136, 216);
   }
-.footer {
-    width: 97%;
-    background-color: rgb(145, 142, 142);
-    color: white;
+footer {
+    background: rgb(151, 143, 143);
+    padding: 50px;
     text-align: center;
-    padding: 20px;
-  }
-.item{
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    cursor: pointer;
+}
+.fa {
+    padding: 10px;
+}
+.fa-facebook {
+    background: blue;
+    color: #FFF;
+    border-radius: 10px;
+}
+.fa-instagram {
+    border-radius: 10px;
+    background: rgb(238, 187, 20);
+    color: white;
+}
+.fa-telegram {
+    border-radius: 10px;
+    background: rgb(8, 8, 240);
+    color: white;
+}
+.fa-skype{
+    border-radius: 10px;
+    background: blue;
+    color: white;
 }
 @media (max-width:600px){
     .container, ul, li, a {

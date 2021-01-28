@@ -80,17 +80,38 @@ form .submit:hover{
     background-color:#f44336 ;
     cursor: pointer;
 }
-.map {
-    width:97%;
-    background-color: rgb(189, 184, 184);
-    color: white;
+footer {
+    background: rgb(151, 143, 143);
+    padding: 50px;
     text-align: center;
-    padding: 20px;
-    color:black;
-  }
-  .item{
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    cursor: pointer;
+    color: aliceblue;
+}
+.fa {
+    padding: 10px;
+}
+.fa-facebook {
+    background: blue;
+    color: #FFF;
+    border-radius: 10px;
+}
+.fa-instagram {
+    border-radius: 10px;
+    background: rgb(238, 187, 20);
+    color: white;
+}
+.fa-telegram {
+    border-radius: 10px;
+    background: rgb(8, 8, 240);
+    color: white;
+}
+.fa-skype{
+    border-radius: 10px;
+    background: blue;
+    color: white;
+}
+.index{
+    height: 45px;
+    position: relative;
+    bottom: -18px;
+    left: 5px;
 }
