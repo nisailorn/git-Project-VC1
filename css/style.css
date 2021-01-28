@@ -24,7 +24,7 @@ li a:hover {
     cursor: pointer;
 }
 .active, .nav:hover{
-    color: rgba(46, 18, 201, 0.945);
+    color: rgb(7, 248, 27);
     text-decoration: underline;
 }
 .container{
@@ -99,7 +99,7 @@ h3{
   }
 .footer {
     width: 97%;
-    background-color: rgb(241, 234, 234);
+    background-color: rgb(145, 142, 142);
     color: white;
     text-align: center;
     padding: 20px;
@@ -109,4 +109,10 @@ h3{
     height: 50px;
     margin: 5px;
     cursor: pointer;
+}
+@media (max-width:600px){
+    .container, ul, li, a {
+        float: none;
+        width: 100%;
+}
 }

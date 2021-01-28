@@ -25,7 +25,7 @@ li a:hover {
     cursor: pointer;
 }
 .active, .nav:hover{
-    color: rgba(36, 32, 236, 0.945);
+    color: rgb(29, 253, 9);
     text-decoration: underline;
 }
 .container{
@@ -117,13 +117,16 @@ h2{
     margin-top: -12%;
     margin-bottom: 1%;
 }
-.input {
+.footer{
     width: 97%;
     padding: 20px;
     height: 10px;
     position: relative;
-    top: -100px;
+    top: -120px;
+    text-align: center;
+    
   }
+
 .item{
     width: 50px;
     height: 50px;

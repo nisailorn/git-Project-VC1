@@ -29,7 +29,7 @@ li a:hover {
     cursor: pointer;
 }
 .active, .nav:hover{
-    color: rgba(40, 19, 224, 0.945);
+    color: rgba(28, 243, 9, 0.979);
     text-decoration: underline;
 }
 .container{
@@ -82,7 +82,7 @@ form .submit:hover{
 }
 .map {
     width:97%;
-    background-color: rgb(241, 234, 234);
+    background-color: rgb(189, 184, 184);
     color: white;
     text-align: center;
     padding: 20px;
