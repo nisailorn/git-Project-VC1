@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background: url(../Picture/contact.jpg);
+    background: url(../Picture/banner4.png);
     background-size: cover;
     font-family: sans-serif;
 }
@@ -37,6 +37,9 @@ li a:hover {
     justify-content: space-between;
     width: 100%;
     background:rgb(71, 71, 70);
+    position:sticky;
+    top:0;
+    z-index: 99;
 }
 .title{
     margin-top: 100px;
@@ -45,7 +48,7 @@ li a:hover {
 }
 .title h1{
     font-size: 32px;
-    line-height: 10px;
+    line-height: 50px;
 }
 .title h2{
     font-size: 16px;
@@ -58,10 +61,12 @@ form{
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid gray;
-    color: #fff;
+    border-bottom: 1px solid rgb(231, 221, 221);
     font-size: 20px;
     margin-bottom: 16px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    
 }
 input{
     height: 50px;
@@ -114,4 +119,33 @@ footer {
     position: relative;
     bottom: -18px;
     left: 5px;
+}
+@media(max-width:600px){
+    .container, ul, li, a {
+        float: none;
+        width:100%;
+    
+}
+    .body{
+        margin-left: -50%;
+    }
+    .title h1{
+        font-size: 20px;
+       
+    }
+    .title h2{
+        font-size:20px;
+        margin-left: -5px;
+    }
+    
+}
+@media(max-width:600px){
+    input[type=submit]{
+        font-size: 10px;
+        width: 100px;
+        
+    }
+    .form-control{
+        width: 100%;
+    }
 }

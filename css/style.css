@@ -1,6 +1,7 @@
 body{
-    background: rgb(24, 197, 219);
+    background: rgb(3, 104, 117);
     width: 100%;
+    background-image:  url(../Picture/banner4.png);
 }
 *{
     margin: 0;
@@ -32,6 +33,9 @@ li a:hover {
     justify-content: space-between;
     width: 100%;
     background: rgb(71, 71, 70);
+    position:sticky;
+    top:0;
+    z-index: 99;
 }
 .columns{
     display: flex;
@@ -82,7 +86,8 @@ h3{
     margin-bottom: 20px;
     color: #FFF;
     width: 100%;
-    background: rgba(20, 19, 19, 0.157);
+    background: rgba(0, 0, 0, 0.5);
+    height: 130vh;
 }
 .btn {
     background-color: rgb(12, 87, 161);
@@ -98,7 +103,7 @@ h3{
     background-color: rgb(109, 136, 216);
   }
 footer {
-    background: rgb(151, 143, 143);
+    background:rgba(0,0,0,0.6);
     padding: 50px;
     text-align: center;
 }
@@ -130,4 +135,10 @@ footer {
         float: none;
         width: 100%;
 }
+}
+@media(max-width:400px){
+    .colunms{
+        width: 100px;
+        display: inline;
+    }
 }
