@@ -120,12 +120,13 @@ footer {
     bottom: -18px;
     left: 5px;
 }
-@media(max-width:600px){
+@media (max-width:600px){
     .container, ul, li, a {
         float: none;
-        width:100%;
-    
+        width: 100%;
 }
+}
+@media(max-width:600px){
     .body{
         margin-left: -50%;
     }

@@ -69,6 +69,7 @@ h1{
     width: 90%;
     margin: auto;
     font-size: 12px;
+    margin-left: 5%;
     
 }
 .one{
@@ -86,6 +87,7 @@ h2{
     margin: auto;
     background: rgba(0,0,0,0.5);
     font-size: 11px;
+    margin-left: 5%;
     
 }
 .c{
@@ -96,6 +98,7 @@ h2{
     width: 90%;
     margin: auto;
     font-size: 12px;
+    margin-left: 5%;
 }
 .d{
     color: #fff;
@@ -106,8 +109,21 @@ h2{
     width: 90%;
     margin: auto;
     font-size: 12px;
+    margin-left: 10%;
 }
 .pictureone{
+    position: relative;
+    height: 350px;
+}
+.pictureonea{
+    position: relative;
+    height: 350px;
+}
+.pictureoneb{
+    position: relative;
+    height: 350px;
+}
+.pictureonec{
     position: relative;
     height: 350px;
 }
@@ -121,8 +137,7 @@ h2{
     margin-bottom: 1%;
 }
 footer {
-    background: rgb(151, 143, 143);
-    padding: 0px;
+    background: rgb(148, 145, 145);
     text-align: center;
 }
 .fa {
@@ -155,4 +170,91 @@ footer {
     color: white;
     position: relative;
     top: -70px;
+}
+@media (max-width:600px){
+    .container, ul, li, a {
+        float: none;
+        width: 100%;
+}
+    .back{
+        width:100%;
+        height: 90vh;
+    }
+    .text{
+        width: 80%;
+        margin-left: 5%;
+    
+        
+    }
+    .color{
+        position: relative;
+        top: -140px;
+        
+    }
+    h1{
+        font-size: 15px;
+    }
+    .paragrab{
+        width: 100%;
+        font-size: 12px;
+    }
+    .row{
+        position: relative;
+        top: -140px;
+    }
+    .column{
+        float: none;
+        position: relative;
+    }
+    .one{
+        width: 50vh;
+        }
+    .a{
+        width: 55vh;
+        
+    }
+    .b{
+        width: 55vh;
+        position: relative;
+        top: -50vh;
+       
+    }
+    
+    .c{
+        width: 55vh;
+        position: relative;
+        top: -100vh;
+    }
+    .d{
+        width: 55vh;
+        position: relative;
+        top: -120vh;
+    }
+    .column img{
+        width: 56.5vh;
+    }
+    footer{
+        width: 55vh;
+        
+    }
+    .pictureonea{
+        position: relative;
+        top: -100px;
+    }
+    .pictureoneb{
+        position: relative;
+        top: -375px;
+    }
+    .pictureonec{
+        position: relative;
+        top: -490px;
+    }
+    .fa{
+        position: relative;
+        top: -60px;
+    }
+    footer{
+        position: relative;
+        top: -550px;
+    }
 }
